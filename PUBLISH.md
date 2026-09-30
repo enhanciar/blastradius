@@ -12,8 +12,8 @@ blastradius /path/to/some/repo some_function   # sanity run
 grep -rnEi "https?://|/Users/|api[_-]?key|secret|password" src/ tests/   # expect only enhanciar.in / test words
 ```
 
-PyPI name: `blastradius` was already taken on PyPI when checked on 2026-09-30, so the
-distribution is named **`blastradius-cli`** in `pyproject.toml`. It was free then. The installed
+PyPI name: `blastradius` and `blastradius-cli` were both taken on PyPI when checked on 2026-09-30, so the
+distribution is named **`blastradius-py`** in `pyproject.toml`. It was free then. The installed
 command and the import name are still `blastradius`. Re-check before uploading.
 
 ## 1. GitHub
@@ -36,7 +36,7 @@ command and the import name are still `blastradius`. Re-check before uploading.
 rm -rf dist && python -m build
 twine check dist/*
 twine upload --repository testpypi dist/*    # dry run on test.pypi.org first
-pip install -i https://test.pypi.org/simple/ blastradius-cli && blastradius --version
+pip install -i https://test.pypi.org/simple/ blastradius-py && blastradius --version
 twine upload dist/*                          # real upload (uses your PyPI API token)
 ```
 

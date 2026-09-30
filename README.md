@@ -16,7 +16,7 @@ It runs locally. It has no dependencies, needs no AI key and makes no network ca
 ## Install
 
 ```bash
-pip install blastradius-cli      # once published (command is `blastradius`); until then:
+pip install blastradius-py      # once published (command is `blastradius`); until then:
 pip install git+https://github.com/<you>/blastradius
 # or from a checkout
 pip install -e .

@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "blastradius-cli"
+name = "blastradius-py"
 version = "0.1.0"
 description = "See what breaks before you change a Python function: callers, transitive dependents and affected tests, locally."
 readme = "README.md"
