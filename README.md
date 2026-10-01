@@ -2,6 +2,8 @@
 
 **See what breaks before you change a function.**
 
+![blastradius demo](assets/demo.gif)
+
 `blastradius` parses a Python repo, builds its call graph and import graph, and
 tells you what depends on the function or file you're about to change:
 
@@ -17,7 +19,7 @@ It runs locally. It has no dependencies, needs no AI key and makes no network ca
 
 ```bash
 pip install blastradius-py      # once published (command is `blastradius`); until then:
-pip install git+https://github.com/<you>/blastradius
+pip install git+https://github.com/enhanciar/blastradius
 # or from a checkout
 pip install -e .
 ```
@@ -174,3 +176,7 @@ MIT © Enhanciar
 ---
 
 Built by [Enhanciar](https://enhanciar.in) (enhanciar.in), a company brain that answers with sources.
+
+---
+
+![blastradius: see what breaks before you change it](assets/social-preview.png)

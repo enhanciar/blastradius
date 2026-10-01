@@ -24,7 +24,7 @@ command and the import name are still `blastradius`. Re-check before uploading.
    git remote add origin git@github.com:<org>/blastradius.git
    git push -u origin main
    ```
-3. Replace `<you>` in the README's `pip install git+https://github.com/<you>/blastradius` line.
+3. The README's `pip install git+https://github.com/enhanciar/blastradius` line already points at the real repo.
 4. Add a `Repository` URL under `[project.urls]` in `pyproject.toml`.
 5. Repo settings: add the description "See what breaks before you change a function" and the topics
    `python`, `static-analysis`, `call-graph`, `refactoring`, `cli`.
